@@ -3,13 +3,13 @@ library(factoextra)
 
 # Lecture des fichiers excel
 library(readxl)
-pv_data <- read_excel("C:/Users/admin/Documents/RAYANE DOSSIER ETUDES/ANAD/TP2 ANAD/PV_2CP_2022.xlsx")
+pv_data <- read_excel("PV_2CP_2022.xlsx")
 
 # Dans la liste affectation se trouve 4 différents sheet
-sheet1 <- read_excel("C:/Users/admin/Documents/RAYANE DOSSIER ETUDES/ANAD/TP2 ANAD/LISTE_AFFECTATION.xlsx",sheet=1)
-sheet2 <- read_excel("C:/Users/admin/Documents/RAYANE DOSSIER ETUDES/ANAD/TP2 ANAD/LISTE_AFFECTATION.xlsx",sheet=2)
-sheet3 <- read_excel("C:/Users/admin/Documents/RAYANE DOSSIER ETUDES/ANAD/TP2 ANAD/LISTE_AFFECTATION.xlsx",sheet=3)
-sheet4 <- read_excel("C:/Users/admin/Documents/RAYANE DOSSIER ETUDES/ANAD/TP2 ANAD/LISTE_AFFECTATION.xlsx",sheet=4)
+sheet1 <- read_excel("LISTE_AFFECTATION.xlsx",sheet=1)
+sheet2 <- read_excel("LISTE_AFFECTATION.xlsx",sheet=2)
+sheet3 <- read_excel("LISTE_AFFECTATION.xlsx",sheet=3)
+sheet4 <- read_excel("LISTE_AFFECTATION.xlsx",sheet=4)
 
 # Création d'une seule liste d'affectation en réalisant une fusion
 library(dplyr)
