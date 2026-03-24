@@ -12,14 +12,14 @@ Multivariate statistical analysis in R: PCA, MCA, CA for dimensionality reductio
 - **Linear Regression (LR)** — models `crim` (crime rate) as a function of `medv` (simple) and all variables (multiple) using the Boston Housing dataset
  
 ---
----
+
  
 ## 📁 Structure
  
 | Method | Dataset |
-|---|---|---|
-| `PCA/` | Student grades |
-| `CA_MCA/` | Diabetes early-stage prediction |
+|---|---|
+| `PCA` | Student grades |
+| `CA + MCA` | Diabetes early-stage prediction |
 | Simple & Multiple LR | Boston Housing |
  
 ---
